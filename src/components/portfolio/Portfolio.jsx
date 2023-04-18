@@ -23,7 +23,7 @@ const data = [
   {
     id: 3,
     image: Img3,
-    title: "Crypto Currency Clone ",
+    title: "Youtube React Clone ",
     github: "https://github.com",
     demo: "https://suncrypto.netlify.app",
   },

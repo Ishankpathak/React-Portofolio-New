@@ -115,6 +115,35 @@ const Experience = () => {
             </article>
           </div>
         </div>
+
+        {/* End of backend */}
+
+        <div className="experience__backend">
+          <h3>Other Skills</h3>
+          <div className="experience__content">
+          
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>SEO</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+            <article className="experience__details">
+              <BsPatchCheckFill className="experience__details-icon"/>
+              <div>
+                <h4>SEO</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+
+           
+
+          
+          </div>
+        </div>
+
       </div>
     </section>
   );

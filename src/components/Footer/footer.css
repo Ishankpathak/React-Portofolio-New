@@ -1,0 +1,18 @@
+footer{
+    height: 40vh;
+    background-color: var(--color-bg);
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 0;
+}
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 1rem;
+
+}

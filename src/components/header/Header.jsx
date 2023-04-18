@@ -5,6 +5,7 @@ import CTA from './CTA'
 import HeaderSocials from './HeaderSocials'
 
 const Header = () => {
+ 
   return (
     <header>
       <div className="container header__container">

@@ -1,12 +1,12 @@
 footer{
-    height: 40vh;
+    height: 50vh;
     background-color: var(--color-bg);
     bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    top: 0;
+    margin-top: 5rem;
 }
 .footer-icon{
     display: flex;

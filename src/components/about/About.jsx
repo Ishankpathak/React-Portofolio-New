@@ -13,7 +13,7 @@ const About = () => {
 
       <div className="Image">
         <div>
-          <img src={ME} alt="My Image" style={{ width: "15rem" }} />
+          <img src={ME} alt="Ishank Pathak" style={{ width: "15rem" }} />
         </div>
 
         <div className="Image">

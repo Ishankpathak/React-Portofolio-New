@@ -6,6 +6,8 @@
 }
 #contact{
     height: 100vh;
+    margin-bottom: 1rem;
+    margin-top: 5rem;
 }
 .contact__options{
     display: flex;

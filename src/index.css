@@ -99,6 +99,11 @@ img {
   width: 100%;
   object-fit: cover;
 }
+.message{
+  text-align: center;
+  margin: 10px;
+  color: rgb(225, 77, 77);
+}
 /****************** MEDIA QUERY (MEDIUM DEVICES)******************/
 @media screen and (max-width: 1024px) {
   .container {

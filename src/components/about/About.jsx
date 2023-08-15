@@ -1,22 +1,40 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./about.css";
 import ME from "../../assets/me.png";
 import { FaAward } from "react-icons/fa";
 import { FiUsers } from "react-icons/fi";
 import { BsFillFolderFill } from "react-icons/bs";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const About = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <section id="about">
-      <h5>Get To Know</h5>
-      <h2>About Me</h2>
+      <h5 data-aos="fade-up" data-aos-anchor-placement="top-center">
+        Get To Know
+      </h5>
+      <h2 data-aos="fade-up" data-aos-anchor-placement="top-center">
+        About Me
+      </h2>
 
-      <div className="Image">
+      <div
+        className="Image"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-center"
+      >
         <div>
           <img src={ME} alt="Ishank Pathak" style={{ width: "15rem" }} />
         </div>
 
-        <div className="Image">
+        <div
+          className="Image"
+          data-aos="fade-up"
+          data-aos-anchor-placement="top-center"
+        >
           <div className="about__content">
             <div className="about__cards">
               <article className="about__card">

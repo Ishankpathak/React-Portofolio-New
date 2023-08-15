@@ -1,20 +1,35 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./portfolio.css";
 
 import { data } from "./Project_data.js";
 
-
+import Aos from "aos";
+import "aos/dist/aos.css";
 
 const Portfolio = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   return (
     <section id="portfolio">
-      <h5>My Recent Work</h5>
-      <h2>Portfolio</h2>
-      <h3 className="message">There can be sometime little problems in rendering as i have used free server</h3>
+      <h5 data-aos="fade-up" data-aos-anchor-placement="top-center">
+        My Recent Work
+      </h5>
+      <h2 data-aos="fade-up" data-aos-anchor-placement="top-center">
+        Portfolio
+      </h2>
+      <h3
+        className="message"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-center"
+      >
+        There can be sometime little problems in rendering as i have used free
+        server
+      </h3>
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article className="portfolio__item" key={id}>
+            <article className="portfolio__item" key={id} data-aos="fade-up" data-aos-anchor-placement="top-center">
               <div className="portfolio__item-image">
                 <img src={image} alt="" className="portfolio-image" />
               </div>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./contact.css";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsWhatsapp } from "react-icons/bs";
@@ -8,7 +8,13 @@ import { toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { ToastContainer } from "react-toastify";
 
+import Aos from "aos";
+import "aos/dist/aos.css";
+
 const Contact = () => {
+  useEffect(() => {
+    Aos.init();
+  }, []);
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -32,7 +38,6 @@ const Contact = () => {
             pauseOnHover: true,
             draggable: true,
           });
-       
         },
         (error) => {
           toast.error("Failed to send message. Please try again later.", {
@@ -50,9 +55,17 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5>Get In Touch</h5>
-      <h2>Contact Me</h2>
-      <div className="container contact__container">
+      <h5 data-aos="fade-up" data-aos-anchor-placement="top-center">
+        Get In Touch
+      </h5>
+      <h2 data-aos="fade-up" data-aos-anchor-placement="top-center">
+        Contact Me
+      </h2>
+      <div
+        className="container contact__container"
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-center"
+      >
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />

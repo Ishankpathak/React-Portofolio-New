@@ -4,6 +4,7 @@ import blog from "../../assets/blog.jpg";
 import Img4 from "../../assets/editor-min.png";
 import Ecom from "../../assets/ecom.png";
 import Weather from "../../assets/weatherapp.png";
+import MovieApp from "../../assets/movie.png";
 export const data = [
   {
     id: 1,
@@ -35,13 +36,20 @@ export const data = [
   },
   {
     id: 5,
+    image: MovieApp,
+    title: "Movie Search App",
+    github: "https://github.com/Ishankpathak/MovieAppOmdb",
+    demo: "https://movistmania.netlify.app",
+  },
+  {
+    id: 6,
     image: Weather,
     title: "Weather App Using React",
     github: "https://github.com/Ishankpathak/TextEditor",
     demo: "https://weathers-updates.netlify.app/",
   },
   {
-    id: 6,
+    id: 7,
     image: Img4,
     title: "Text Editor Using React",
     github: "https://github.com/Ishankpathak/TextEditor",

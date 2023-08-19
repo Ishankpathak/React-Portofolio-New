@@ -22,7 +22,7 @@ const Services = () => {
         data-aos="fade-up"
         data-aos-anchor-placement="top-center"
       >
-        <article className="service">
+        <article className="service" data-aos="fade-right">
           <div className="service__head">
             <h3>UI/UX Design</h3>
           </div>
@@ -73,7 +73,7 @@ const Services = () => {
 
         {/* END OF UI/UX */}
 
-        <article className="service">
+        <article className="service" data-aos="fade-right">
           <div className="service__head">
             <h3>Web Development</h3>
           </div>
@@ -86,10 +86,6 @@ const Services = () => {
             <li>
               <BiCheck className="service__list-icon" />
               <p>E-commerce Website Development</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
-              <p>Content Management Systems (CMS)</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
@@ -109,10 +105,6 @@ const Services = () => {
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Integration Services</p>
-            </li>
-            <li>
-              <BiCheck className="service__list-icon" />
               <p>Website Security</p>
             </li>
             <li>
@@ -122,7 +114,8 @@ const Services = () => {
           </ul>
         </article>
         {/* END of WEB DEV */}
-        <article className="service">
+
+        <article className="service" data-aos="fade-right">
           <div className="service__head">
             <h3>Content Creation</h3>
           </div>
@@ -174,6 +167,7 @@ const Services = () => {
             </li>
           </ul>
         </article>
+
         {/* END of Content reation */}
       </div>
     </section>

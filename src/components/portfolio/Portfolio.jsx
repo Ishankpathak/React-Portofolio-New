@@ -12,16 +12,17 @@ const Portfolio = () => {
   }, []);
   return (
     <section id="portfolio">
-      <h5 data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <h5 data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-once="true">
         My Recent Work
       </h5>
-      <h2 data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <h2 data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-once="true">
         Portfolio
       </h2>
       <h3
         className="message"
         data-aos="fade-up"
         data-aos-anchor-placement="top-center"
+        data-aos-once="true"
       >
         There can be sometime little problems in rendering as i have used free
         server
@@ -29,7 +30,7 @@ const Portfolio = () => {
       <div className="container portfolio__container">
         {data.map(({ id, image, title, github, demo }) => {
           return (
-            <article className="portfolio__item" key={id} data-aos="fade-up" data-aos-anchor-placement="top-center">
+            <article className="portfolio__item" key={id} data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-once="true">
               <div className="portfolio__item-image">
                 <img src={image} alt="" className="portfolio-image" />
               </div>

@@ -55,16 +55,25 @@ const Contact = () => {
 
   return (
     <section id="contact">
-      <h5 data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <h5
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-center"
+        data-aos-once="true"
+      >
         Get In Touch
       </h5>
-      <h2 data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <h2
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-center"
+        data-aos-once="true"
+      >
         Contact Me
       </h2>
       <div
         className="container contact__container"
         data-aos="fade-up"
         data-aos-anchor-placement="top-center"
+        data-aos-once="true"
       >
         <div className="contact__options">
           <article className="contact__option">

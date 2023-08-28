@@ -11,14 +11,22 @@ const Experience = () => {
   }, []);
   return (
     <section id="experience">
-      <h5 data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <h5
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-center"
+        data-aos-once="true"
+      >
         What Skills I Have
       </h5>
-      <h2 data-aos="fade-up" data-aos-anchor-placement="top-center">
+      <h2
+        data-aos="fade-up"
+        data-aos-anchor-placement="top-center"
+        data-aos-once="true"
+      >
         My Experience
       </h2>
       <div className="container experience__container">
-        <div data-aos="fade-right">
+        <div data-aos="fade-right" data-aos-once="true">
           <div className="experience__frontend">
             <h3>Frontend Development</h3>
             <div className="experience__content">
@@ -75,7 +83,7 @@ const Experience = () => {
 
         {/* END OF FRONTEND */}
 
-        <div data-aos="fade-right">
+        <div data-aos="fade-right" data-aos-once="true">
           <div className="experience__backend">
             <h3>Backend Development</h3>
             <div className="experience__content">
@@ -132,7 +140,7 @@ const Experience = () => {
 
         {/* End of backend */}
 
-        <div data-aos="fade-right">
+        <div data-aos="fade-right" data-aos-once="true">
           <div className="experience__backend">
             <h3>Other Skills</h3>
             <div className="experience__content">
